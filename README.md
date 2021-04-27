@@ -1,2 +1,2 @@
-# Svelte Kit Site
-### Personal site inspired by Svelte Kit
+# Sapper Site
+### Personal site inspired by Sapper
