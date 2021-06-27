@@ -88,27 +88,34 @@ nav{
 	font-weight: bold;
 	transition: all ease 0.4s;
 }
+.valigndiv{
+	width:100vw;
+  	height:100vh;
+  	display:table-cell;
+  	text-align:center;
+  	vertical-align:middle;
+	font-weight: 600;
+	font-size: 28px;
+}
 </style>
 
-<main>
-	<section id="main">
-		<!--navigation-------------------------------->
-		<nav>
-		<!--logo--->
+<!-- <main>
+	<section id="main"> -->
+<!-- 		<nav>
 		<a href="/" class="logo">Didier</a>
-		<!--menu--------->
 		<div class="toggle"></div>
 		<ul class="menu">
 		<li class="active"><a href="/" >Home</a></li>	
 		<li><a href="about">About</a></li>	
 		<li><a href="services">Services</a></li>		
 		</ul>
-		<!--language-->
 		<a href="/" class="lang" style="font-size:13px;text-transform: none;">English</a>
-		</nav>
+		</nav> -->
+		
+		<div class="valigndiv">I am building it!.</div>
 	 
 	
-	<slot></slot>
+<!-- 	<slot></slot> -->
 	
-</section>
-</main>
+<!-- </section>
+</main> -->
