@@ -11,7 +11,7 @@
   "dependencies": {
     "compression": "1.7.4",
     "polka": "next",
-    "sirv": "1.0.12"
+    "sirv": "1.0.14"
   },
   "devDependencies": {
     "sapper": "0.29.2",
