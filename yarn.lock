@@ -2070,10 +2070,10 @@ shimport@^2.0.5:
   resolved "https://registry.yarnpkg.com/shimport/-/shimport-2.0.5.tgz#5303bcaf6e3b941b22a2adeb7230f1e02ac6cd1c"
   integrity sha512-H2FeQyImK4CFhGG1wVhHEB1hASWz+WQK6t2gMP5lk+b0PW30XSrsryDONDBwF1n6hBKsmbr0REfTinaNdEkcPQ==
 
-sirv@1.0.17:
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.17.tgz#86e2c63c612da5a1dace1c16c46f524aaa26ac45"
-  integrity sha512-qx9go5yraB7ekT7bCMqUHJ5jEaOC/GXBxUWv+jeWnb7WzHUFdcQPGWk7YmAwFBaQBrogpuSqd/azbC2lZRqqmw==
+sirv@1.0.18:
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.18.tgz#105fab52fb656ce8a2bebbf36b11052005952899"
+  integrity sha512-f2AOPogZmXgJ9Ma2M22ZEhc1dNtRIzcEkiflMFeVTRq+OViOZMvH1IPMVOwrKaxpSaHioBJiDR0SluRqGa7atA==
   dependencies:
     "@polka/url" "^1.0.0-next.20"
     mime "^2.3.1"
