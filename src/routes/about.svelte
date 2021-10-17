@@ -1,65 +1,50 @@
+<script context="module">
+	import { browser, dev } from '$app/env';
+
+	// we don't need any JS on this page, though we'll load
+	// it in dev so that we get hot module replacement...
+	export const hydrate = dev;
+
+	// ...but if the client-side router is already loaded
+	// (i.e. we came here from elsewhere in the app), use it
+	export const router = browser;
+
+	// since there's no dynamic data here, we can prerender
+	// it so that it gets served as a static asset in prod
+	export const prerender = true;
+</script>
+
 <svelte:head>
-	<title>Didier's About</title>
+	<title>About</title>
 </svelte:head>
+
+<div class="content">
+	<h1>About this app</h1>
+
+	<p>
+		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
+		following into your command line and following the prompts:
+	</p>
+
+	<!-- TODO lose the @next! -->
+	<pre>npm init svelte@next</pre>
+
+	<p>
+		The page you're looking at is purely static HTML, with no client-side interactivity needed.
+		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
+		the devtools network panel and reloading.
+	</p>
+
+	<p>
+		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
+		it with JavaScript disabled!
+	</p>
+</div>
+
 <style>
-	#about{
-	width:65%;
-	box-sizing: border-box;
-	align-items: center;
-	justify-content: space-between;
-	padding: 20px 5% 0px 5%;
-	margin-top: px;
-	border-radius: 10px;
-	margin: 70px auto;
-}
-.about-text{
-	font-family: Poppins;
-	font-size: 17px;
-	width: 100%;
-	margin-bottom: 0px;
-	text-align: center;
-}
-.about-text *{
-	width: 80%;
-	margin: 10px auto;
-	padding: 0px;
-}
-.about-text h2{
-	font-size: 1.7rem;
-	color:#000000;
-	font-weight: 400;
-}
-.about-text p{
-	font-size: 1rem;
-	color:rgba(0, 0, 0, 0.9);
-	
-}
-.about-text button{
-	margin-left: 15rem;
-	width: 80%;
-	margin: 10px auto;
-	padding: 0px;
-	width: 180px;
-	height: 40px;
-	border-radius: 20px;
-	border: none;
-	outline: none;
-	background-color:#ff971d;
-	font-family: Poppins;
-}
-.about-text button:hover{
-	background-color: rgb(114, 161, 114);
-	transition: all ease 0.3s;
-	color: #fff;
-}
-
-	</style>
-
-<section id="about">
-	<!--text---------------------->
-	<div class="about-text">
-	<h2>A Software Engineer</h2>
-	<p>I enjoy solving real world problems using software engineering. It is more interesting to me more when I am doing these problems by software and hardware programs. So I am a programmer. Passionated to collaborate to open source projects and other tech staffs</p>
-	<button>View More Details</button>
-	</div>
-	</section>
+	.content {
+		width: 100%;
+		max-width: var(--column-width);
+		margin: var(--column-margin-top) auto 0 auto;
+	}
+</style>
