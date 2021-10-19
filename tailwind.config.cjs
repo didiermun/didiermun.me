@@ -3,6 +3,9 @@ const config = {
   purge: ["./src/**/*.{html,js,svelte,ts}"],
 
   theme: {
+    fontFamily: {
+      para: 'Work Sans'
+    },
     extend: {},
   },
 
@@ -10,3 +13,4 @@ const config = {
 };
 
 module.exports = config;
+
