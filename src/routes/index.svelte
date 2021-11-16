@@ -10,25 +10,26 @@
 </svelte:head>
 
 <section class="w-full">
-	<div class="w-full grid grid-cols-6 gap-0 px-8 py-6 mx-auto items-center h-screen">
-		<div class="col-span-6 md:col-span-4 px-12">
+	<div class="w-full  px-8 py-6 mx-auto items-center h-screen">
+		<div class="flex justify-center">
+		<div class="w-5/6 md:w-2/3">
 			<div class="w-full px-4 py-4 my-4">
-				<p class="font-semibold text-5xl font-para">Hello folks! I am Didier Munezero, a software developer.</p>
+				<p class="font-semibold text-5xl font-para">Hello folks! I am Didier Munezero, a software engineer.</p>
 			</div>
 			<div class="w-full">
 				<h1 class="font-bold uppercase py-2 font-para">Background</h1>
 				<p class="py-4 font-para">Hi, I am Didier Munezero, a software developer focusing on creating real world problems using computers and technology. I help people develops apps of their dreams to make their business successful. With more 3+ years in this field of software development, I understand the connection between user and tools that they are using.</p>
 				<p class="py-4 font-para">Currently, I am a freelancer who is developing mobile and web applications for clients. As a freelancer, I am open to work which means that you can reach for a job offer.</p>
-				<div class="w-full flex justify-center">
+				<!-- <div class="w-full flex justify-center">
 				    <button class="bg-black text-white px-6 py-2 font-para">Hire me</button>
-			    </div>
+			    </div> -->
 			</div>
 		</div>
-		<div class="col-span-6 md:col-span-2 mt-10 md:mt-0 px-12 md:px-0 flex md:block justify-center">
+	</div>
+		<div class="flex justify-center">
 			<div>
-			<img src="last.jpg" class="h-52 w-48 rounded" alt="">
 			<div class="mt-4 px-4">
-				<h1 class="uppercase font-semibold font-para">Social Media</h1>
+				<p class="uppercase font-semibold font-para">Connect with me</p>
 				<div class="font-para">
 					<div class="flex gap-1 mt-2 py-1">
 						<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M36.21,1.07H13.79A12.73,12.73,0,0,0,1.07,13.79V36.21A12.74,12.74,0,0,0,13.79,48.93H36.21A12.74,12.74,0,0,0,48.93,36.21V13.79A12.73,12.73,0,0,0,36.21,1.07Zm9.72,35.14a9.73,9.73,0,0,1-9.72,9.72H13.79a9.73,9.73,0,0,1-9.72-9.72V13.79a9.73,9.73,0,0,1,9.72-9.72H36.21a9.73,9.73,0,0,1,9.72,9.72Z" fill="#000000"></path><path d="M25,13.39A11.61,11.61,0,1,0,36.61,25,11.63,11.63,0,0,0,25,13.39Zm0,20.22A8.61,8.61,0,1,1,33.61,25,8.62,8.62,0,0,1,25,33.61Z" fill="#000000"></path><path d="M38.07,8.72a3,3,0,1,0,3,3A3,3,0,0,0,38.07,8.72Z" fill="#000000"></path></svg>
@@ -50,6 +51,5 @@
 			</div>
 			</div>
 		</div>
-		<p class="font-para col-span-6 text-center mt-6 md:mt-0">Copyright ©Didier Munezero 2021</p>
 	</div>
 </section>
