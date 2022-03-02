@@ -19,11 +19,8 @@
 			</div>
 			<div class="w-full">
 				<h1 class="font-bold uppercase py-2 font-para text-center text-[#B000B9]">Background</h1>
-				<p class="py-4 font-para text-white">Hi, I am Didier Munezero, a software engineer focusing on creating real world problems using computers and technology. I help people develops apps of their dreams to make their business successful. With more 3+ years in this field of software development, I understand the connection between user and tools that they are using.</p>
-				<p class="py-4 font-para text-white">Currently, I am a freelancer who is developing mobile and web applications for clients. As a freelancer, I am open to work and that means you can reach for a job offer.</p>
-				<!-- <div class="w-full flex justify-center">
-				    <button class="bg-black text-white px-6 py-2 font-para">Hire me</button>
-			    </div> -->
+				<p class="py-4 font-para text-white">Hi, I am Didier Munezero, a software engineer focused on creating real world solutions using computers and technology. I enjoy reading reading books and also writing personal novels.</p>
+				<p class="py-4 font-para text-white">I enjoy science studies and researches around Physics, Philosophy, and Psychology.</p>
 			</div>
 		</div>
 	</div>
