@@ -6,7 +6,11 @@ const config = {
     fontFamily: {
       para: 'Work Sans'
     },
-    extend: {},
+    extend: {
+      spacing: {
+        '128': '32rem',
+      }
+    },
   },
 
   plugins: [],
