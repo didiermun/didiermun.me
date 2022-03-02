@@ -20,7 +20,7 @@
 					</div>
 					<div class="">
 						<h1 class="font-bold uppercase py-2 font-para text-center text-[#0C4271]">Background</h1>
-						<p class="py-4 font-para text-gray-400">Hi, I am Didier Munezero, a software engineer focused on creating real world solutions using computers and technology. I enjoy reading reading books and also writing personal novels.</p>
+						<p class="py-4 font-para text-gray-400">Hi, I am Didier Munezero, a software engineer focused on creating real world solutions using computer technology. I enjoy reading reading books and also writing personal novels.</p>
 						<p class="py-4 font-para text-gray-400">I enjoy science studies and researches around Physics, Philosophy, and Psychology.</p>
 					</div>
 				</div>
