@@ -16,11 +16,11 @@
 		<div class="flex flex-col items-center">
 				
 					<div class="w-full px-4 py-4 my-4">
-						<p class="font-semibold text-5xl font-para text-center text-gray-400">Hi👋, I am Didier,</p>
+						<p class="font-semibold text-5xl font-para text-center text-gray-400">Hi👋, I am Didier.</p>
 					</div>
 					<div class="">
 						<h1 class="font-bold uppercase py-2 font-para text-center text-xl text-[#5800FF]">SMALL INTRO</h1>
-						<p class="py-2 font-para text-gray-400 indent-8 text-lg">My names are Didier Munezero, software engineer focused on creating solutions using computer knowledge.</p>
+						<p class="py-2 font-para text-gray-400 indent-8 text-lg">My name is Didier Munezero, software engineer focused on creating solutions using computer knowledge.</p>
 						<p class="py-2 font-para text-gray-400  indent-8 text-lg">Apart from computers, I enjoy reading books and reading scientific ideas around Physics and Philosophy.</p>
 					</div>
 				
