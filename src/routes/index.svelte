@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Didier Munezero</title>
 </svelte:head>
 
 <section class="w-full">
@@ -19,7 +19,7 @@
 						<p class="font-semibold text-5xl font-para text-center text-gray-400">Hi👋, I am Didier.</p>
 					</div>
 					<div class="">
-						<h1 class="font-bold uppercase py-2 font-para text-center text-xl text-[#5800FF]">SMALL INTRO</h1>
+						<h1 class="font-bold uppercase py-2 font-para text-center text-xl text-[#5800FF]">SHORT INTRO</h1>
 						<p class="py-2 font-para text-gray-400 indent-8 text-lg">My name is Didier Munezero, software engineer focused on creating solutions using computer knowledge.</p>
 						<p class="py-2 font-para text-gray-400  indent-8 text-lg">Apart from computers, I enjoy reading books and reading scientific ideas around Physics and Philosophy.</p>
 					</div>
