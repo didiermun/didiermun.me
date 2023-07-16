@@ -19,7 +19,7 @@
 						<p class="font-semibold text-5xl font-para text-center text-gray-400">Hey👋, Glad you found us!</p>
 					</div>
 					<div class="">
-						<p class="py-2 font-para text-gray-400 indent-8 text-lg">Welcome to the corner of the web of Didier Munezero, an Aspiring Software Engineer. Fueled by a relentless pursuit of personal growth and a vision for more refined computer systems, this journey through the realms of computer science is a constant evolution.</p>
+						<p class="py-2 font-para text-gray-400 indent-8 text-lg">Welcome to the corner of the web of Didier Munezero, an Aspiring Software Engineer. Fueled by a relentless pursuit of personal growth and a vision for more refined computer systems, this journey through the realms of computer science is a constant evolution for me.</p>
 						<p class="py-2 font-para text-gray-400  indent-8 text-lg">A guiding principle that lends me courage and steers my course is a quote by Leonard I. Sweet: "The future is not something we enter. The future is something we create." This ethos shapes our collective journey as the architects of tomorrow. Vamos!</p>
 					</div>
 				
@@ -27,10 +27,6 @@
 				<div class="mt-12 px-4">
 					<p class="uppercase font-semibold font-para text-[#5800FF] text-center text-xl">FASCINATED? LET'S CONNECT</p>
 					<div class="font-para text-gray-400 flex flex-col md:flex-row flex-wrap gap-4 pt-2 text-lg">
-						<div class="flex gap-1 py-1 self-start">
-							<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M36.21,1.07H13.79A12.73,12.73,0,0,0,1.07,13.79V36.21A12.74,12.74,0,0,0,13.79,48.93H36.21A12.74,12.74,0,0,0,48.93,36.21V13.79A12.73,12.73,0,0,0,36.21,1.07Zm9.72,35.14a9.73,9.73,0,0,1-9.72,9.72H13.79a9.73,9.73,0,0,1-9.72-9.72V13.79a9.73,9.73,0,0,1,9.72-9.72H36.21a9.73,9.73,0,0,1,9.72,9.72Z" fill="#9ca3af"></path><path d="M25,13.39A11.61,11.61,0,1,0,36.61,25,11.63,11.63,0,0,0,25,13.39Zm0,20.22A8.61,8.61,0,1,1,33.61,25,8.62,8.62,0,0,1,25,33.61Z" fill="#9ca3af"></path><path d="M38.07,8.72a3,3,0,1,0,3,3A3,3,0,0,0,38.07,8.72Z" fill="#9ca3af"></path></svg>
-							<a class="hover:text-[#270082]" target="_blank" href="https://www.instagram.com/mun_didier/">mun_didier</a>
-						</div>
 						<div class="flex gap-1 py-1 self-start">
 							<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M19.37,42.29a26.12,26.12,0,0,1-13.5-3.76L1.13,35.64l5.47,1A13.8,13.8,0,0,0,16,34.76a12.33,12.33,0,0,1-6.83-5.37C4.71,22,8,10.77,8.19,10.3l.57-1.88L10,10a22.54,22.54,0,0,0,14.72,8A8.84,8.84,0,0,1,29.33,9.2a9.1,9.1,0,0,1,10.85,1.37,22,22,0,0,0,4.31-1.76l2.09-1.1L46,10a7.38,7.38,0,0,1-1.09,2.33c.47-.17.75-.3.76-.3l3.23-1.51-1.92,3a20.22,20.22,0,0,1-4,4.12c0,9.46-4.12,17.28-11.45,21.5A24.42,24.42,0,0,1,19.37,42.29Zm-8.32-3.55a23.15,23.15,0,0,0,19.43-1.41c6.9-4,10.59-11.13,10.41-20.18v-.53l.42-.32s.7-.53,1.53-1.28a10.21,10.21,0,0,1-1.38.16l-4.7.25,4.16-2.2A7.06,7.06,0,0,0,42.46,12a9.35,9.35,0,0,1-2.57.69l-.48,0-.32-.34A7.15,7.15,0,0,0,30.34,11,6.88,6.88,0,0,0,27,18.85l.32,1.3H26A24.35,24.35,0,0,1,9.71,12.78C9,16.16,8,23.37,11,28.32a10.87,10.87,0,0,0,7.68,5l2.06.39-1.56,1.4A16.82,16.82,0,0,1,11.05,38.74Z" fill="#9ca3af"></path></svg>
 							<a class="hover:text-[#270082]" target="_blank" href="https://twitter.com/didier_mun">didier_mun</a>
