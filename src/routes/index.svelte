@@ -16,12 +16,11 @@
 		<div class="flex flex-col items-center">
 				
 					<div class="w-full px-4 py-4 my-4">
-						<p class="font-semibold text-5xl font-para text-center text-gray-400">Hi👋, I am Didier.</p>
+						<p class="font-semibold text-5xl font-para text-center text-gray-400">Hey👋, Glad you found us!</p>
 					</div>
 					<div class="">
-						<h1 class="font-bold uppercase py-2 font-para text-center text-xl text-[#5800FF]">SHORT INTRO</h1>
-						<p class="py-2 font-para text-gray-400 indent-8 text-lg">My name is Didier Munezero, software engineer focused on creating solutions using computer knowledge.</p>
-						<p class="py-2 font-para text-gray-400  indent-8 text-lg">Apart from computers, I enjoy reading books and reading scientific ideas around Physics and Philosophy.</p>
+						<p class="py-2 font-para text-gray-400 indent-8 text-lg">Welcome to the corner of the web of Didier Munezero, an Aspiring Software Engineer. Fueled by a relentless pursuit of personal growth and a vision for more refined computer systems, this journey through the realms of computer science is a constant evolution.</p>
+						<p class="py-2 font-para text-gray-400  indent-8 text-lg">A guiding principle that lends me courage and steers my course is a quote by Leonard I. Sweet: "The future is not something we enter. The future is something we create." This ethos shapes our collective journey as the architects of tomorrow. Vamos!</p>
 					</div>
 				
 			<div class="flex justify-center">
