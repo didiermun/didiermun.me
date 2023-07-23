@@ -19,7 +19,7 @@
 						<p class="font-semibold text-5xl font-para text-center text-gray-400">Hey👋, Glad you found us!</p>
 					</div>
 					<div class="">
-						<p class="py-2 font-para text-gray-400 indent-8 text-lg">Welcome to the corner of the web of Didier Munezero, an Aspiring Software Engineer. Fueled by a relentless pursuit of personal growth and a vision for more refined computer systems, this journey through the realms of computer science is a constant evolution for me.</p>
+						<p class="py-2 font-para text-gray-400 indent-8 text-lg">Welcome to the corner of the web of Didier Munezero, an on-track Software Engineer. Fueled by a relentless pursuit of personal growth and a vision for more refined computer systems, this journey through the realms of computer science became a constant evolution.</p>
 						<p class="py-2 font-para text-gray-400  indent-8 text-lg">A guiding principle that lends me courage and steers my course is a quote by Leonard I. Sweet: "The future is not something we enter. The future is something we create." This ethos shapes our collective journey as the architects of tomorrow. Vamos!</p>
 					</div>
 				
