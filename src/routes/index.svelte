@@ -16,7 +16,7 @@
 		<div class="flex flex-col items-center">
 				
 					<div class="w-full px-4 py-4 my-4">
-						<p class="font-semibold text-5xl font-para text-center text-gray-400">Hey👋, Glad you found us!</p>
+						<p class="font-semibold text-5xl font-para text-center text-gray-400">Hey👋, I am Didier.</p>
 					</div>
 					<div class="">
 						<p class="py-2 font-para text-gray-400 indent-8 text-lg">Welcome to the corner of the web of Didier Munezero, an on-track Software Engineer. Fueled by a relentless pursuit of personal growth and a vision for more refined computer systems, this journey through the realms of computer science became a constant evolution.</p>
