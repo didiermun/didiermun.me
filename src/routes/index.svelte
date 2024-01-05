@@ -19,7 +19,7 @@
 						<p class="font-semibold text-5xl font-para text-center text-gray-400">I am Didier.</p>
 					</div>
 					<div class="">
-						<p class="py-2 font-para text-gray-400 indent-8 text-lg">Hello, I'm Didier Munezero, a Computer Science enthusiast, and I am advancing my skills in the field at Northwestern University. Professionally, I've enjoyed contributing to projects like an online Bus Booking System and being part of the team developing 'Flogram,' an innovative 'Flow of Programming' language. My technical skills focus on creating user-friendly and efficient digital experiences. When I'm not coding, I love exploring new places, reflecting my fondness for sightseeing. Music is a big part of my life; I start each day with a new song in mind, inspiring fresh ways to contribute to the ever-evolving world of technology with my laptop. </p>
+						<p class="py-2 font-para text-gray-400 indent-8 text-lg">Hello, I'm Didier Munezero, a Computer Science enthusiast, currently advancing my skills at Northwestern University. Professionally, I've enjoyed contributing to projects like an online Bus Booking System and being part of the team developing 'Flogram,' an innovative 'Flow of Programming' language. My technical skills focus on creating user-friendly and efficient digital experiences. When I'm not coding, I love exploring new places, reflecting my fondness for sightseeing. Music is a big part of my life; I start each day with a new song in mind, inspiring fresh ways to contribute to the ever-evolving world of technology with my laptop. </p>
 					</div>
 				
 			<div class="flex justify-center">
