@@ -16,16 +16,14 @@
 		<div class="flex flex-col items-center">
 				
 					<div class="w-full px-4 py-4 my-4">
-						<p class="font-semibold text-5xl font-para text-center text-gray-400">Hey👋, I am Didier.</p>
+						<p class="font-semibold text-5xl font-para text-center text-gray-400">I am Didier.</p>
 					</div>
 					<div class="">
-						<p class="py-2 font-para text-gray-400 indent-8 text-lg">Welcome to the corner of the web of Didier Munezero, an on-track Software Engineer. Fueled by a relentless pursuit of personal growth and a vision for more refined computer systems, this journey through the realms of computer science became a constant evolution.</p>
-						<p class="py-2 font-para text-gray-400  indent-8 text-lg">A guiding principle that lends me courage and steers my course is a quote by Leonard I. Sweet: "The future is not something we enter. The future is something we create." This ethos shapes our collective journey as the architects of tomorrow. Vamos!</p>
+						<p class="py-2 font-para text-gray-400 indent-8 text-lg">Hello, I'm Didier Munezero, a Fullstack Developer and Frontend Engineer with a growing passion for Computer Science, which I'm currently studying at Northwestern University. My educational journey in software programming and embedded systems started at Rwanda Coding Academy. Professionally, I've enjoyed contributing to projects like an online Bus Booking System and being part of the team developing 'Flogram,' an innovative 'Flow of Programming' language still in the works. My technical skills range from Svelte to Java, focusing on creating user-friendly and efficient digital experiences. When I'm not coding, I love exploring new places, a reflection of my fondness for sightseeing. Music is a big part of my life; I find joy in exploring various genres, and each day greets me with a new song in my head, symbolizing a fresh start. This daily melody fuels my passion for facing new challenges, constantly reminding me that with my laptop and a creative mind, I have the power to contribute innovative solutions in the ever-evolving world of technology. </p>
 					</div>
 				
 			<div class="flex justify-center">
 				<div class="mt-12 px-4">
-					<p class="uppercase font-semibold font-para text-[#5800FF] text-center text-xl">FASCINATED? LET'S CONNECT</p>
 					<div class="font-para text-gray-400 flex flex-col md:flex-row flex-wrap gap-4 pt-2 text-lg">
 						<div class="flex gap-1 py-1 self-start">
 							<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M19.37,42.29a26.12,26.12,0,0,1-13.5-3.76L1.13,35.64l5.47,1A13.8,13.8,0,0,0,16,34.76a12.33,12.33,0,0,1-6.83-5.37C4.71,22,8,10.77,8.19,10.3l.57-1.88L10,10a22.54,22.54,0,0,0,14.72,8A8.84,8.84,0,0,1,29.33,9.2a9.1,9.1,0,0,1,10.85,1.37,22,22,0,0,0,4.31-1.76l2.09-1.1L46,10a7.38,7.38,0,0,1-1.09,2.33c.47-.17.75-.3.76-.3l3.23-1.51-1.92,3a20.22,20.22,0,0,1-4,4.12c0,9.46-4.12,17.28-11.45,21.5A24.42,24.42,0,0,1,19.37,42.29Zm-8.32-3.55a23.15,23.15,0,0,0,19.43-1.41c6.9-4,10.59-11.13,10.41-20.18v-.53l.42-.32s.7-.53,1.53-1.28a10.21,10.21,0,0,1-1.38.16l-4.7.25,4.16-2.2A7.06,7.06,0,0,0,42.46,12a9.35,9.35,0,0,1-2.57.69l-.48,0-.32-.34A7.15,7.15,0,0,0,30.34,11,6.88,6.88,0,0,0,27,18.85l.32,1.3H26A24.35,24.35,0,0,1,9.71,12.78C9,16.16,8,23.37,11,28.32a10.87,10.87,0,0,0,7.68,5l2.06.39-1.56,1.4A16.82,16.82,0,0,1,11.05,38.74Z" fill="#9ca3af"></path></svg>
