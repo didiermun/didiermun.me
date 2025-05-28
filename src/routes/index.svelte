@@ -25,7 +25,7 @@
       description:
         "Full-stack app for booking bus transfers with Google Maps routing, online payments via Stripe, and live driver notifications via WhatsApp, Email, and Slack.",
       stack: ["NestJS", "Prisma", "Stripe", "Google Maps"],
-	  link: "https://89tranfers.com"
+	  link: "https://89transfers.com/en"
     },
 	{
       title: "TunePad Drum Logger",
@@ -38,7 +38,8 @@
       title: "Income Predictor ML",
       description:
         "Trained Random Forest and Logistic Regression models on Kaggle census data to predict income brackets. Evaluated using KNN and confusion matrix; visualized with Tableau.",
-      stack: ["Python", "Scikit-learn", "Tableau"]
+      stack: ["Python", "Scikit-learn", "Tableau"],
+	  link: "https://github.com/didiermun/income_predictor"
     },
 	{
       title: "Racket Test Generator",
@@ -47,11 +48,10 @@
       stack: ["GPT-3.5", "DrRacket"]
     },
     {
-      title: "Wildlife Ranger Report Tool",
+      title: "Wildlife Ranger Report",
       description:
         "Built a real-time reporting tool for rangers in Rwanda to document gorilla sightings. Urgent reports notify veterinarians instantly via socket messages.",
       stack: ["NextJS", "PostgreSQL", "Socket.io"],
-	  link: "https://npmg-client-six.vercel.app"
     }
   ];
 
