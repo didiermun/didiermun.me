@@ -102,7 +102,7 @@
 <section class="px-6 py-16">
   <div class="max-w-3xl mx-auto text-center">
     <h2 class="text-5xl font-bold mb-6 text-gray-300">Hi, I’m Didier.</h2>
-		<p class="py-2 font-para indent-8 text-lg text-gray-400">A Computer Science junior at Northwestern University, passionate about scalable systems, educational tech, and AI solutions. I’ve contributed to projects like <a href="https://flogram.dev/" target="_blank" class="text-indigo-600">Flogram</a> (a web-based compiler) and <a href="https://tunepad.com" target="_blank" class="text-indigo-600">Tunepad</a> (an ed-tech platform combining music and coding). I also enjoy music and mentoring, always looking for ways to use code to empower others.</p>
+		<p class="py-2 font-para indent-8 text-lg text-gray-400">A Computer Science junior at Northwestern University, passionate about applying technology to achieve social impact. I’ve contributed to projects like <a href="https://flogram.dev/" target="_blank" class="text-indigo-600">Flogram</a> (a web-based compiler) and <a href="https://tunepad.com" target="_blank" class="text-indigo-600">Tunepad</a> (an ed-tech platform combining music and coding). I also enjoy music and mentoring, always looking for ways to use code to empower others.</p>
   </div>
 </section>
 
