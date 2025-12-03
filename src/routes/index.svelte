@@ -48,50 +48,51 @@
       stack: ["GPT-3.5", "DrRacket"]
     },
     {
-      title: "Wildlife Ranger Report",
+      title: "LLMTyped DT",
       description:
-        "Built a real-time reporting tool for rangers in Rwanda to document gorilla sightings. Urgent reports notify veterinarians instantly via socket messages.",
-      stack: ["NextJS", "PostgreSQL", "Socket.io"],
+        "Research project investigating how well LLMs can infer accurate TypeScript types for real-world JavaScript libraries. Built a tool that consumes JavaScript libraries, converts them to TypeScript using LLM-generated type annotations, compares the generated types to human-authored definitions in DefinitelyTyped, identifies mismatches and inconsistencies, and compiles comprehensive reports. This research addresses the gap where JavaScript lacks a built-in static type system and explores whether LLMs can help automate the TypeScript ecosystem by generating correct typings and identifying errors in existing human-written definitions.",
+      stack: ["Python", "JavaScript", "TypeScript", "HTML", "CSS"],
     }
   ];
 
   const experiences = [
     {
-      title: "Software Engineering Intern",
-      company: "TunePad, Northwestern University",
-      date: "May 2024 – Aug 2024",
-      description: [
-        "Built an embedded drum system (Python + C) to enhance hands-on music learning.",
-        "Developed a ReactJS + Flask dashboard with real-time tracking.",
-        "Maintained K–12 Python coding lessons and conducted research on music and learning with 360° video data."
-      ]
-    },
-    {
-      title: "Teaching Assistant – Data Structures & Algorithms",
+      title: "Teaching Assistant (Data Structures and Algorithms & Programming Languages)",
       company: "Northwestern University",
-      date: "Sept 2024 – Present",
+      date: "September 2024 – Present",
       description: [
-        "Led 120+ students in mastering AVL trees, heaps, and graph algorithms.",
-        "Reviewed 20+ assignments weekly and improved overall class grades by 15%."
+        "Guided 120+ students in data structures (AVL trees, heaps, graphs), improving lab completion rates by 20%.",
+        "Created real-world algorithm demos, improving application accuracy by 25% on assessments.",
+        "Assessed 20+ assignments weekly with personalized feedback, contributing to a 15% class-wide performance increase."
       ]
     },
     {
-      title: "Full-Stack Developer",
-      company: "89Transfers, Remote (Spain)",
-      date: "May 2023 – Sept 2023",
+      title: "CPS GenAI Specialist Intern",
+      company: "Chicago Public Schools",
+      date: "June 2025 – September 2025",
       description: [
-        "Built a full-stack bus booking platform with Stripe, Google Maps, and real-time messaging.",
-        "Implemented NestJS backend and Prisma ORM for efficient task orchestration."
+        "Designed scalable GenAI rollout pipeline across 600+ schools, cutting approval delays by 35%.",
+        "Developed GenAI solutions (Python/JavaScript) to automate educator workflows, reducing administrative work by 25%."
       ]
     },
-    // {
-    //   title: "Incoming SWE Intern",
-    //   company: "Flogram",
-    //   date: "Summer 2025",
-    //   description: [
-    //     "Contributing to the development of a new web-based programming language and compiler infrastructure."
-    //   ]
-    // }
+    {
+      title: "Tunepad – Software Engineering Intern",
+      company: "Northwestern University",
+      date: "June 2024 – September 2024",
+      description: [
+        "Built embedded system (Python + C) for drum sequences, increasing student engagement by 30%.",
+        "Built real-time React + Flask dashboard with task tracking, increasing operational transparency by 40%.",
+        "Refactored coding lesson pipeline, increasing session completion rates by 20% for 200+ K–12 students."
+      ]
+    },
+    {
+      title: "Research Student – Programming Languages",
+      company: "Northwestern University",
+      date: "May 2024 – August 2024",
+      description: [
+        "Developed automated test-generation tool for Racket using chain-of-thought prompting. Tool supports CS321 faculty and research projects."
+      ]
+    }
   ];
 </script>
 
