@@ -8,7 +8,7 @@
     if (saved !== null) {
       dark = saved === "true";
     } else {
-      dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     }
     document.documentElement.classList.toggle("dark", dark);
   });
@@ -57,14 +57,14 @@
     {
       title: "LLMTyped DT",
       description:
-        "Research project investigating how well LLMs can infer accurate TypeScript types for real-world JavaScript libraries. Built a tool that consumes JavaScript libraries, converts them to TypeScript using LLM-generated type annotations, compares the generated types to human-authored definitions in DefinitelyTyped, identifies mismatches and inconsistencies, and compiles comprehensive reports. This research addresses the gap where JavaScript lacks a built-in static type system and explores whether LLMs can help automate the TypeScript ecosystem by generating correct typings and identifying errors in existing human-written definitions.",
+        "Research project investigating LLM-generated TypeScript types for JavaScript libraries. Built a tool that converts JS libraries to TypeScript, compares generated types to DefinitelyTyped definitions, and identifies mismatches to compile comprehensive reports.",
       stack: ["Python", "JavaScript", "TypeScript", "HTML", "CSS"],
     }
   ];
 
   const experiences = [
     {
-      title: "Teaching Assistant (Data Structures and Algorithms & Programming Languages)",
+      title: "Teaching Assistant (DSA & Programming Languages)",
       company: "Northwestern University",
       date: "September 2024 – Present",
       description: [
@@ -103,37 +103,34 @@
   ];
 </script>
 
-<header class="px-6 py-4 flex justify-between items-center shadow bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700">
-  <h1 class="text-xl font-bold text-gray-800 dark:text-gray-400">Didier Munezero</h1>
-  <button
-    on:click={toggleDarkMode}
-    class="p-2 rounded-lg text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
-    aria-label="Toggle dark mode"
-  >
-    {#if dark}
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
-      </svg>
-    {:else}
-      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-      </svg>
-    {/if}
-  </button>
-</header>
+<button
+  on:click={toggleDarkMode}
+  class="fixed bottom-6 right-6 z-50 p-3 rounded-full shadow-lg bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors border border-gray-200 dark:border-gray-700"
+  aria-label="Toggle dark mode"
+>
+  {#if dark}
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+    </svg>
+  {:else}
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+    </svg>
+  {/if}
+</button>
 
-<section class="px-6 py-16 bg-white dark:bg-gray-900">
+<section class="px-6 py-16 bg-white dark:bg-[#000000]">
   <div class="max-w-3xl mx-auto text-center">
     <h2 class="text-5xl font-bold mb-6 text-gray-800 dark:text-gray-300">Hi, I'm Didier.</h2>
 		<p class="py-2 font-para indent-8 text-lg text-gray-600 dark:text-gray-400">A Computer Science junior at Northwestern University, passionate about applying technology to achieve social impact. I've contributed to projects like <a href="https://flogram.dev/" target="_blank" class="text-indigo-600 dark:text-indigo-400 hover:underline">Flogram</a> (a web-based compiler) and <a href="https://tunepad.com" target="_blank" class="text-indigo-600 dark:text-indigo-400 hover:underline">Tunepad</a> (an ed-tech platform combining music and coding). I also enjoy music and mentoring, always looking for ways to use code to empower others.</p>
   </div>
 </section>
 
-<section class="px-6 py-16 bg-gray-50 dark:bg-gray-900">
+<section class="px-6 py-16 bg-gray-50 dark:bg-[#000000]">
   <h2 class="text-4xl font-bold mb-10 text-center text-gray-800 dark:text-gray-300">Projects</h2>
   <div class="grid gap-8 md:grid-cols-2">
     {#each projects as p}
-      <div class="border border-gray-200 dark:border-gray-700 rounded-xl p-6 hover:shadow-lg transition bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-300">
+      <div class="border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg transition bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-300">
         <h3 class="text-2xl font-semibold">{p.title}</h3>
         <p class="mt-2 font-para text-gray-600 dark:text-gray-400">{p.description}</p>
         <div class="mt-2 text-sm text-gray-500 dark:text-gray-500">
@@ -147,7 +144,7 @@
   </div>
 </section>
 
-<section class="px-6 py-16 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-300">
+<section class="px-6 py-16 bg-white dark:bg-[#000000] text-gray-800 dark:text-gray-300">
   <h2 class="text-4xl font-bold mb-10 text-center">Experience</h2>
   <div class="space-y-8">
     {#each experiences as e}
@@ -164,7 +161,7 @@
   </div>
 </section>
 
-<footer class="text-center py-6 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-600 dark:text-gray-400">
+<footer class="text-center py-6 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-[#000000] text-gray-600 dark:text-gray-400">
   <div class="space-x-6">
     <a href="mailto:didiermunezero2027@u.northwestern.edu" class="hover:underline">Email</a>
     <a href="https://github.com/didiermun" target="_blank" class="hover:underline">GitHub</a>
@@ -176,6 +173,6 @@
 
 <style>
   :global(body) {
-    @apply bg-white dark:bg-gray-900 transition-colors duration-300;
+    @apply bg-white dark:bg-[#000000] transition-colors duration-300;
   }
 </style>
