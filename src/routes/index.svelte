@@ -122,7 +122,7 @@
 <section class="px-6 py-16 bg-white dark:bg-[#000000]">
   <div class="max-w-3xl mx-auto text-center">
     <h2 class="text-5xl font-bold mb-6 text-gray-800 dark:text-gray-300">Hi, I'm Didier.</h2>
-		<p class="py-2 font-para indent-8 text-lg text-gray-600 dark:text-gray-400">A Computer Science junior at Northwestern University, passionate about applying technology to achieve social impact. I've contributed to projects like <a href="https://flogram.dev/" target="_blank" class="text-cyan-600 dark:text-cyan-400 hover:underline">Flogram</a> (a web-based compiler) and <a href="https://tunepad.com" target="_blank" class="text-cyan-600 dark:text-cyan-400 hover:underline">Tunepad</a> (an ed-tech platform combining music and coding). I also enjoy music and mentoring, always looking for ways to use code to empower others.</p>
+		<p class="py-2 font-para indent-8 text-lg text-gray-600 dark:text-gray-400">A Computer Science junior at Northwestern University, passionate about applying technology to achieve social impact. I've contributed to projects like <a href="https://flogram.dev/" target="_blank" class="text-teal-500 hover:underline">Flogram</a> (a web-based compiler) and <a href="https://tunepad.com" target="_blank" class="text-teal-500 hover:underline">Tunepad</a> (an ed-tech platform combining music and coding). I also enjoy music and mentoring, always looking for ways to use code to empower others.</p>
   </div>
 </section>
 
@@ -137,7 +137,7 @@
           Stack: {p.stack.join(", ")}
         </div>
         {#if p.link}
-          <a href={p.link} target="_blank" class="inline-block mt-4 text-cyan-600 dark:text-cyan-400 hover:underline">View Project</a>
+          <a href={p.link} target="_blank" class="inline-block mt-4 text-teal-500 hover:underline">View Project</a>
         {/if}
       </div>
     {/each}
@@ -148,7 +148,7 @@
   <h2 class="text-4xl font-bold mb-10 text-center">Experience</h2>
   <div class="space-y-8">
     {#each experiences as e}
-      <div class="border-l-4 border-cyan-500 dark:border-cyan-400 pl-6">
+      <div class="border-l-4 border-teal-500 pl-6">
         <h3 class="text-xl font-bold">{e.title}</h3>
         <div class="text-sm text-gray-500 dark:text-gray-500">{e.company} · {e.date}</div>
         <ul class="mt-2 list-disc ml-4 space-y-1 font-para text-gray-600 dark:text-gray-400">
