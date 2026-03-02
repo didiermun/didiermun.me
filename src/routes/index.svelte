@@ -68,9 +68,9 @@
       company: "Northwestern University",
       date: "September 2024 – Present",
       description: [
-        "Guided 120+ students in data structures (AVL trees, heaps, graphs), improving lab completion rates by 20%.",
-        "Created real-world algorithm demos, improving application accuracy by 25% on assessments.",
-        "Assessed 20+ assignments weekly with personalized feedback, contributing to a 15% class-wide performance increase."
+        "Guided 120+ students in mastering data structures (AVL trees, heaps, graphs) through labs and code reviews, fostering algorithmic thinking and contributing to a 20% improvement in weekly lab completion rates.",
+        "Created and delivered real-world algorithm demos (e.g., O(n log n) sorting), tailoring instruction to diverse learners and improving in-class application accuracy by 25% on post-lab assessments.",
+        "Assessed 20+ assignments weekly and provided personalized feedback, contributing to a 15% class-wide performance increase and more profound comprehension of core concepts."
       ]
     },
     {
@@ -78,8 +78,8 @@
       company: "Chicago Public Schools",
       date: "June 2025 – September 2025",
       description: [
-        "Designed scalable GenAI rollout pipeline across 600+ schools, cutting approval delays by 35%.",
-        "Developed GenAI solutions (Python/JavaScript) to automate educator workflows, reducing administrative work by 25%."
+        "Led cross-functional coordination with curriculum, IT, and admin teams to design a scalable GenAI rollout pipeline across 600+ schools, aligning training priorities and cutting approval delays by 35%",
+        "Developed custom GenAI solutions using Python and JavaScript to automate educator workflows, including lesson plan generation and student assessment tools, cutting repetitive administrative workflows by an estimated 25%."
       ]
     },
     {
@@ -87,9 +87,9 @@
       company: "Northwestern University",
       date: "June 2024 – September 2024",
       description: [
-        "Built embedded system (Python + C) for drum sequences, increasing student engagement by 30%.",
-        "Built real-time React + Flask dashboard with task tracking, increasing operational transparency by 40%.",
-        "Refactored coding lesson pipeline, increasing session completion rates by 20% for 200+ K–12 students."
+        "Built an embedded system (Python + C) to log and replay drum sequences, enriching music pedagogy and increasing student engagement by 30%.",
+        "Led UI design and implementation for a real-time React + Flask dashboard, integrating visual task tracking and admin alerts, streamlining oversight and clarifying cross-team responsibilities, leading to a 40% rise in operational transparency.",
+        "Refactored browser-based coding lesson pipeline in collaboration with education leads, resolving async errors and elevating session completion rates by 20% for 200+ K–12 students."
       ]
     },
     {
@@ -97,7 +97,7 @@
       company: "Northwestern University",
       date: "May 2024 – August 2024",
       description: [
-        "Developed automated test-generation tool for Racket using chain-of-thought prompting. Tool supports CS321 faculty and research projects."
+        "Under mentorship of Prof. Christos Dimoulas, I developed an automated test-generation tool for Racket programs, using chain-of-thought prompting to achieve high accuracy and broad coverage. The tool supports Northwestern faculty in CS321 (Programming Languages) for assignment preparation and is being applied in professor-led research projects to streamline the generation of rigorous test suites."
       ]
     }
   ];
